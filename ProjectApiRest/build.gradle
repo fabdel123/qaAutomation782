@@ -1,0 +1,49 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'eclipse'
+apply plugin: 'net.serenity-bdd.aggregator'
+
+group 'com.sophossolutions'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+buildscript {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+    ext{
+        serenityVersion = "2.4.4"
+        serenityGradleVersion = "2.4.4"
+        serenityCucumberVersion = "2.4.4"
+    }
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:$rootProject.ext.serenityGradleVersion")
+    }
+}
+
+dependencies {
+    implementation group: 'net.serenity-bdd', name: 'serenity-cucumber6', version: "$rootProject.ext.serenityCucumberVersion"
+    implementation group: 'net.serenity-bdd', name: 'serenity-screenplay', version: "$rootProject.ext.serenityVersion"
+    implementation group: 'net.serenity-bdd', name: 'serenity-screenplay-rest', version: "$rootProject.ext.serenityVersion"
+    implementation group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.30'
+    implementation group: 'junit', name: 'junit', version: '4.13'
+}
+
+test {
+    systemProperties System.getProperties()
+    systemProperty "file.encoding", "UTF-8"
+    systemProperty "feature.file.encoding", "UTF-8"
+    systemProperty "cucumber.options", System.properties.getProperty("cucumber.options")
+    testLogging.showStandardStreams = true
+    finalizedBy(aggregate)
+}
+
+gradle.startParameter.continueOnFailure = true

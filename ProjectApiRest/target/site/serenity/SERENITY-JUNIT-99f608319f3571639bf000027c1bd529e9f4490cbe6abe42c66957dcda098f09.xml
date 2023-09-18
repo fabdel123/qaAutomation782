@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Automatizacion de Api Rest" skipped="0" tests="1" time="0.21" timestamp="2022-02-14 03:20:09"><testcase name="Crear un usuario con metodo Post"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+com.google.common.base.Preconditions.checkNotNull(Preconditions.java:878)&#13;
+com.sophossolutions.stepdefinitions.PostGorestStepdefinitions.proporcionaLaInformacionDelUsuario(PostGorestStepdefinitions.java:21)&#13;
+✽.proporciona la informacion del usuario "public-api/users"(file:///C:/Users/fdelaros/Downloads/ProjectRest/src/test/resources/com.sophossolutions.features/post_gorest.feature:8)&#13;
+</system-err></testcase></testsuite>

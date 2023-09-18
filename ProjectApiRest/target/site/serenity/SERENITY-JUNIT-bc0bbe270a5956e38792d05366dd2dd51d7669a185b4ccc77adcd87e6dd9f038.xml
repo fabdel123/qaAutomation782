@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Automatización de Api Rest" skipped="0" tests="1" time="0.2" timestamp="2022-02-14 04:39:10"><testcase name="Modificar un usuario con Metodo Patch"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+com.google.common.base.Preconditions.checkNotNull(Preconditions.java:878)&#13;
+com.sophossolutions.stepdefinitions.PatchGorestStepDefinitions.ingresaLaInformacionAModificarDelUsuarioEnElEndpoint(PatchGorestStepDefinitions.java:23)&#13;
+✽.Ingresa la informacion a modificar del usuario en el endpoint "public/v2/users/5491"(file:///C:/Users/fdelaros/Downloads/ProjectRest/src/test/resources/com.sophossolutions.features/patch_gorest.feature:8)&#13;
+</system-err></testcase></testsuite>

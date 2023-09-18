@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Automatizacion de Api Rest","Modificar un usuario con Metodo Delete","ERROR","2022-02-14T22:50:08.981-05:00[America/Bogota]","0.0","5.67"
+"Automatizacion de Api Rest","Eliminar un usuario con Metodo Delete","ERROR","2022-02-14T23:28:49.058-05:00[America/Bogota]","0.0","5.94"
+"Automatizacion de Api Rest","Consultar informacion de usuario","FAILURE","2022-02-14T18:33:41.571-05:00[America/Bogota]","0.0","7.08"
+"Automatizacion de Api Rest","Modificar un usuario con Metodo Patch","SUCCESS","2022-02-14T22:38:17.793-05:00[America/Bogota]","0.0","6.39"
+"Automatizacion de Api Rest","Crear un usuario con metodo Post","ERROR","2022-02-14T15:20:09.168-05:00[America/Bogota]","0.0","0.21"

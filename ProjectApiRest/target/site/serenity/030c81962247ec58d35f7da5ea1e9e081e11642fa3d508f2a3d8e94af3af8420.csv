@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Automatización de Api Rest","Consultar informacion de usuario","SUCCESS","2022-02-14T14:45:15.498-05:00[America/Bogota]","0.0","7.09"
+"Automatización de Api Rest","Modificar un usuario con Metodo Patch","ERROR","2022-02-14T16:39:10.352-05:00[America/Bogota]","0.0","0.2"
+"Automatización de Api Rest","Crear un usuario con Metodo Post","SUCCESS","2022-02-14T21:09:07.356-05:00[America/Bogota]","0.0","6.29"

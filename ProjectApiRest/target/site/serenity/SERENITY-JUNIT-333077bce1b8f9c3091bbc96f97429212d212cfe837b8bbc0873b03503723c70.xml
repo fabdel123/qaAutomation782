@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Automatizacion de Api Rest" skipped="0" tests="1" time="7.08" timestamp="2022-02-14 06:33:41"><testcase name="Consultar informacion de usuario"><failure message="1 expectation failed.&#10;JSON path data.name doesn't match.&#10;Expected: Mrs. Chiranjeev Mahajan&#10;  Actual: Deenabandhu Tagore&#10;" type="java.lang.AssertionError">1 expectation failed.
+JSON path data.name doesn't match.
+Expected: Mrs. Chiranjeev Mahajan
+  Actual: Deenabandhu Tagore
+</failure><system-err>1 expectation failed.
+JSON path data.name doesn't match.
+Expected: Mrs. Chiranjeev Mahajan
+  Actual: Deenabandhu Tagore
+&#13;
+com.sophossolutions.stepdefinitions.GetGorestStepDefinitions.validaQueElEstatusCodeSeaYLaRespuestaContengaElNombre(GetGorestStepDefinitions.java:36)&#13;
+✽.valida que el estatus code sea 200 y la respuesta contenga el nombre "Mrs. Chiranjeev Mahajan"(file:///C:/Users/fdelaros/Downloads/ProjectRest/src/test/resources/com.sophossolutions.features/get_gorest.feature:9)&#13;
+</system-err></testcase></testsuite>
